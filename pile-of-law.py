@@ -80,7 +80,7 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
         id_ = 0
         for filepath in filepaths:
             logger.info("generating examples from = %s", filepath)
-            with xz.open(filepath, "rt", encoding="utf-8") as f:
+            with open(filepath, "rt", encoding="utf-8") as f:
                 for line in f:
                     if line:
                         example = json.loads(line)
