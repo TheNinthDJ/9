@@ -30,7 +30,7 @@ _DATA_URL = {
     "r_legaladvice" : 
     {
         "train" : "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.r_legaldvice.jsonl.xz",
-        "validation" : "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.r_legaldvice.jsonl.xz"
+        "validation" : "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.r_legaldvice.jsonl.xz"
     }
 }
 
