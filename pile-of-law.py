@@ -46,7 +46,8 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
             features=datasets.Features(
                 {
                     "text": datasets.Value("string"),
-                    "timestamp": datasets.Value("string"),
+                    "created_timestamp": datasets.Value("string"),
+                    "downloaded_timestamp": datasets.Value("string"),
                     "url": datasets.Value("string"),
                 }
             ),
