@@ -29,8 +29,20 @@ _VARIANTS = ["all", "r_legaladvice"]
 _DATA_URL = {
     "r_legaladvice" : 
     {
-        "train" : "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.r_legaldvice.jsonl.xz",
-        "validation" : "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.r_legaldvice.jsonl.xz"
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.r_legaldvice.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.r_legaldvice.jsonl.xz"]
+    },
+    "courtlistenerdocketentries" : {
+        "train" : [
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlistenerdocketentries.0.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlistenerdocketentries.1.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlistenerdocketentries.2.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlistenerdocketentries.3.jsonl.xz"
+        ],
+        "validation" : [
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlistenerdocketentries.0.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlistenerdocketentries.0.jsonl.xz"
+        ]
     }
 }
 
@@ -80,7 +92,7 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
         id_ = 0
         for filepath in filepaths:
             logger.info("generating examples from = %s", filepath)
-            with open(filepath, "rt", encoding="utf-8") as f:
+            with xz.open(filepath, "rt", encoding="utf-8") as f:
                 for line in f:
                     if line:
                         example = json.loads(line)
