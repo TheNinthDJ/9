@@ -24,7 +24,6 @@ TODO
 
 _URL = ""
 
-_VARIANTS = ["all", "r_legaladvice"]
 
 _DATA_URL = {
     "r_legaladvice" : 
@@ -45,6 +44,8 @@ _DATA_URL = {
         ]
     }
 }
+
+_VARIANTS = ["all"] + list(_DATA_URL.keys())
 
 
 class PileOfLaw(datasets.GeneratorBasedBuilder):
