@@ -31,7 +31,7 @@ _DATA_URL = {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.r_legaldvice.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.r_legaldvice.jsonl.xz"]
     },
-    "courtlistenerdocketentries" : {
+    "courtlistener_docket_entry_documents" : {
         "train" : [
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlistenerdocketentries.0.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlistenerdocketentries.1.jsonl.xz",
@@ -42,6 +42,10 @@ _DATA_URL = {
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlistenerdocketentries.0.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlistenerdocketentries.0.jsonl.xz"
         ]
+    },
+    "courtlistener_opinions" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.jsonl.xz"]
     },
     "federal_register" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.federal_register.jsonl.xz"],
@@ -58,6 +62,40 @@ _DATA_URL = {
     "cc_casebooks" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.cc_casebooks.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.cc_casebooks.jsonl.xz"]
+    },
+    "tos" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.tos.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.tos.jsonl.xz"]
+    },
+    "euro_parl" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.euro_parl.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.euro_parl.jsonl.xz"]
+    },
+    "nlrb_decisions" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.nlrb_decisions.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.nlrb_decisions.jsonl.xz"]
+    },
+    "scotus_oral_arguments" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.scotus_oral.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.scotus_oral.jsonl.xz"]
+    },
+    "cfr" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.cfr.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.cfr.jsonl.xz"]
+    },
+    "state_codes" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.state_code.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.state_code.jsonl.xz"]
+    },
+    "bar_exam_outlines" : {
+        "train" : [
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.stanfordbarexamoutlines.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.shajnfeldbarexamoutlines.jsonl.xz",
+        ],
+        "validation" : [
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.stanfordbarexamoutlines.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.shajnfeldbarexamoutlines.jsonl.xz",
+        ]
     }
 }
 
