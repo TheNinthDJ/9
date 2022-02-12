@@ -75,9 +75,11 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
         else:
             data_sources = [self.config.name]
         for split in ["train", "validation"]:
-            data_urls[split] = [
-                _DATA_URL[source][split] for source in data_sources
-            ]
+            data_urls[split] = []
+            for source in data_sources:
+                for chunk in _DATA_URL[source][split]:
+                    data_urls[split].append(chunk)
+
         train_downloaded_files = dl_manager.download(data_urls["train"])
         validation_downloaded_files = dl_manager.download(data_urls["validation"])
         return [
