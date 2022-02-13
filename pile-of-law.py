@@ -87,6 +87,10 @@ _DATA_URL = {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.state_code.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.state_code.jsonl.xz"]
     },
+    "scotus_filings" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.scotus_docket_entries.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.scotus_docket_entries.jsonl.xz"]
+    },
     "bar_exam_outlines" : {
         "train" : [
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.stanfordbarexamoutlines.jsonl.xz",
@@ -122,8 +126,8 @@ _DATA_URL = {
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.oig.jsonl.xz"]        
     },
     "olc_memos" : {
-        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.olc_memos.jsonl.xz"],
-        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.olc_memos.jsonl.xz"]        
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.olcmemos.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.olcmemos.jsonl.xz"]        
     },
     "uscode" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.uscode.jsonl.xz"],
