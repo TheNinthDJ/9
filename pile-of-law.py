@@ -96,6 +96,14 @@ _DATA_URL = {
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.stanfordbarexamoutlines.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.shajnfeldbarexamoutlines.jsonl.xz",
         ]
+    },
+    "atticus_contracts" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.jsonl.xz"]
+    },
+    "edgar" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.edgar.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.edgar.jsonl.xz"]        
     }
 }
 
