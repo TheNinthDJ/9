@@ -43,10 +43,10 @@ _DATA_URL = {
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlistenerdocketentries.0.jsonl.xz"
         ]
     },
-    "courtlistener_opinions" : {
-        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.jsonl.xz"],
-        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.jsonl.xz"]
-    },
+    # "courtlistener_opinions" : {
+    #     "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.jsonl.xz"],
+    #     "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.jsonl.xz"]
+    # },
     "federal_register" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.federal_register.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.federal_register.jsonl.xz"]
@@ -97,13 +97,17 @@ _DATA_URL = {
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.shajnfeldbarexamoutlines.jsonl.xz",
         ]
     },
-    "atticus_contracts" : {
-        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.jsonl.xz"],
-        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.jsonl.xz"]
-    },
+    # "atticus_contracts" : {
+    #     "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.jsonl.xz"],
+    #     "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.jsonl.xz"]
+    # },
     "edgar" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.edgar.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.edgar.jsonl.xz"]        
+    },
+    "constitutions" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.constitutions.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.constitutions.jsonl.xz"]        
     }
 }
 
