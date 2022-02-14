@@ -43,6 +43,19 @@ _DATA_URL = {
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlistenerdocketentries.1.jsonl.xz"
         ]
     },
+    "atticus_contracts" : {
+        "train" : [
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.0.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.1.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.2.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.3.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.atticus_contracts.4.jsonl.xz"            
+        ],
+        "validation" : [
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.atticus_contracts.0.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.atticus_contracts.1.jsonl.xz"
+        ]
+    },
     "courtlistener_opinions" : {
         "train" : [
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.0.jsonl.xz",
