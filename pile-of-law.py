@@ -190,6 +190,10 @@ _DATA_URL = {
     "frcp" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.frcp.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.frcp.jsonl.xz"]      
+    },
+    "canadian_decisions" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.canadian_decisions.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.canadian_decisions.jsonl.xz"]     
     }
 }
 
