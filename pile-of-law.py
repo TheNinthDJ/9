@@ -194,6 +194,10 @@ _DATA_URL = {
     "canadian_decisions" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.canadian_decisions.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.canadian_decisions.jsonl.xz"]     
+    },
+    "eoir" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.eoir.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.eoir.jsonl.xz"]     
     }
 }
 
