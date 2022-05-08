@@ -198,6 +198,10 @@ _DATA_URL = {
     "eoir" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.eoir.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.eoir.jsonl.xz"]     
+    },
+    "dol_ecab" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.dol_ecab.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.dol_ecab.jsonl.xz"]     
     }
 }
 
