@@ -255,15 +255,18 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
         id_ = 0
         for filepath in filepaths:
             logger.info("generating examples from = %s", filepath)
-            with xz.open(open(filepath, "rb"), "rt", encoding="utf-8") as f:
-                for line in f:
-                    if line:
-                        example = json.loads(line)
-                        if example is not None and isinstance(example, dict):
-                            yield id_, {
-                                "text": example.get("text", ""),
-                                "created_timestamp": example.get("created_timestamp", ""),
-                                "downloaded_timestamp": example.get("downloaded_timestamp", ""),
-                                "url": example.get("url", "")
-                            }
-                            id_ += 1
+            try:
+                with xz.open(open(filepath, "rb"), "rt", encoding="utf-8") as f:
+                    for line in f:
+                        if line:
+                            example = json.loads(line)
+                            if example is not None and isinstance(example, dict):
+                                yield id_, {
+                                    "text": example.get("text", ""),
+                                    "created_timestamp": example.get("created_timestamp", ""),
+                                    "downloaded_timestamp": example.get("downloaded_timestamp", ""),
+                                    "url": example.get("url", "")
+                                }
+                                id_ += 1
+            except:
+                print("Error reading file:", filepath)
