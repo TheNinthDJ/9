@@ -259,5 +259,11 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
                 for line in f:
                     if line:
                         example = json.loads(line)
-                        yield id_, example
-                        id_ += 1
+                        if example is not None and isinstance(example, dict):
+                            yield id_, {
+                                "text": example.get("text", ""),
+                                "created_timestamp": example.get("created_timestamp", ""),
+                                "downloaded_timestamp": example.get("downloaded_timestamp", ""),
+                                "url": example.get("url", "")
+                            }
+                            id_ += 1
