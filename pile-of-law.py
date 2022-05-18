@@ -11,6 +11,7 @@ except ImportError:
     import pylzma as xz
 
 
+datasets.logging.set_verbosity_info()
 logger = datasets.logging.get_logger(__name__)
 
 
@@ -254,7 +255,7 @@ class PileOfLaw(datasets.GeneratorBasedBuilder):
         """This function returns the examples in the raw (text) form by iterating on all the files."""
         id_ = 0
         for filepath in filepaths:
-            logger.info("generating examples from = %s", filepath)
+            logger.info("Generating examples from = %s", filepath)
             try:
                 with xz.open(open(filepath, "rb"), "rt", encoding="utf-8") as f:
                     for line in f:
