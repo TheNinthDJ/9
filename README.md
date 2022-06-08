@@ -127,8 +127,14 @@ There is a train/validation split for each subset of the data. 75%/25%
 
 ### Citation Information
 
-[More Information Needed]
+For a citation to this work:
 
-### Contributions
+```
+TODO:
+```
 
-Thanks to [@github-username](https://github.com/<github-username>) for adding this dataset.
+Since this dataset also includes several other curations, if you cite this work please also cite:
+
+```
+
+```
