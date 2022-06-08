@@ -97,16 +97,6 @@ There is a train/validation split for each subset of the data. 75%/25%
 
 [More Information Needed]
 
-### Annotations
-
-#### Annotation process
-
-[More Information Needed]
-
-#### Who are the annotators?
-
-[More Information Needed]
-
 ### Personal and Sensitive Information
 
 [More Information Needed]
