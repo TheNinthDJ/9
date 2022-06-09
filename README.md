@@ -6,7 +6,7 @@ language_creators:
 languages:
 - en
 licenses:
-- other-my-license
+- cc-by-nc-sa-4.0
 multilinguality:
 - monolingual
 pretty_name: pile-of-law
@@ -68,7 +68,76 @@ English
 
 ### Data Instances
 
-[More Information Needed]
+**r_legaladvice** : Filtered data from the r/legaladvice and r/legaladviceofftopic subreddits in the format. 
+Title: [Post Title]
+Topic: [Post Flair]
+Answer \#[N]: [Top Answers]...
+
+**courtListener_docket_entry_documents** : Docket entries in U.S. federal courts, including filed briefs from CourtListener RECAP archive.
+
+**courtListener_opinions** : U.S. court opinions from CourtListener.
+
+**atticus_contracts**: Unannotated contracts from the Atticus Project.
+
+**federal_register**: The U.S. federal register where agencies file draft rulemaking.
+
+**bva_opinions**: Bureau of Veterans Appeals opinions.
+
+**us_bills**: Draft Bills from the United States Congress.
+
+**cc_casebooks**: Educational Casebooks released under open CC licenses.
+
+**tos**: Unannotated Terms of Service contracts.
+
+**euro_parl**: European parliamentary debates.
+
+**nlrb_decisions**: Decisions from the U.S. National Labor Review Board.
+
+**scotus_oral_arguments**: U.S. Supreme Court Oral Arguments
+
+**cfr**: U.S. Code of Federal Regulations
+
+**state_codes**: U.S. State Codes
+
+**scotus_filings**: Briefs and filings with the U.S. Supreme Court.
+
+**bar_exam_outlines**: Bar exam outlines available openly on the web.
+
+**edgar**: Contracts filed with the SEC and made available on the SEC's Edgar tool.
+
+**cfpb_creditcard_contracts**: Credit Card Contracts compiled by the U.S. Consumer Finance Protection Bureau.
+
+**constitutions** : The World's constitutions.
+
+**congressional_hearings** : U.S. Congressional hearing transcripts and statements.
+
+**oig**: U.S. Office of Inspector general reports.
+
+**olc_memos**: U.S. Office of Legal Counsel memos.
+
+**uscode**: The United States Code (laws).
+
+**founding_docs**: Letters from U.S. founders.
+
+**ftc_advisory_opinions**: Advisory opinions by the Federal Trade Commission.
+
+**echr** : European Court of Human Rights opinions.
+
+**eurlex**: European Laws.
+
+**tax_rulings**: Rulings from U.S. Tax court.
+
+**un_debates**: U.N. General Debates
+
+**fre**: U.S. Federal Rules of Evidence
+
+**frcp** : U.S. Federal Rules of Civil Procedure
+
+**canadian_decisions**: Canadian Court Opinions from ON and BC.
+
+**eoir**: U.S. Executive Office for Immigration Review Immigration and Nationality Precedential Decisions
+
+**dol_ecab**: Department of Labor Employees' Compensation Appeals Board decisions after 2006
 
 ### Data Fields
 
