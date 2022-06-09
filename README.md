@@ -58,7 +58,7 @@ We curate a large corpus of legal and administrative data. The utility of this d
 
 ### Supported Tasks and Leaderboards
 
-This is meant as an analysis corpus, but may be used for masked language model pretraining.
+See paper for details.
 
 ### Languages
 
@@ -67,11 +67,6 @@ English
 ## Dataset Structure
 
 ### Data Instances
-
-**r_legaladvice** : Filtered data from the r/legaladvice and r/legaladviceofftopic subreddits in the format. 
-Title: [Post Title]
-Topic: [Post Flair]
-Answer \#[N]: [Top Answers]...
 
 **courtListener_docket_entry_documents** : Docket entries in U.S. federal courts, including filed briefs from CourtListener RECAP archive.
 
@@ -138,6 +133,12 @@ Answer \#[N]: [Top Answers]...
 **eoir**: U.S. Executive Office for Immigration Review Immigration and Nationality Precedential Decisions
 
 **dol_ecab**: Department of Labor Employees' Compensation Appeals Board decisions after 2006
+
+**r_legaladvice** : Filtered data from the r/legaladvice and r/legaladviceofftopic subreddits in the format. 
+Title: [Post Title]
+Topic: [Post Flair]
+Answer \#[N]: [Top Answers]...
+
 
 ### Data Fields
 
