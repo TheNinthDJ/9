@@ -199,7 +199,6 @@ For a citation to this work:
 @article{hendersonkrass2022pileoflaw,
   title={Pile of Law: Learning Responsible Data Filtering from the Law and a 256GB Open-Source Legal Dataset},
   author={Henderson*, Peter and Krass*, Mark and Zheng, Lucia and Guha, Neel and Manning, Christopher and Jurafsky, Dan and Ho, Daniel E},
-  journal={arXiv preprint arXiv:2204.11910},
   year={2022}
 }
 
