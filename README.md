@@ -50,7 +50,7 @@ task_ids:
 
 - **Homepage:** https://huggingface.co/datasets/pile-of-law/pile-of-law
 - **Repository:** https://huggingface.co/datasets/pile-of-law/pile-of-law
-- **Paper:** TBD
+- **Paper:** Under review.
 
 ### Dataset Summary
 
@@ -154,21 +154,21 @@ There is a train/validation split for each subset of the data. 75%/25%
 
 ### Curation Rationale
 
-[More Information Needed]
+We curate a large corpus of legal and administrative data. The utility of this data is twofold: (1) to aggregate legal and administrative data sources that demonstrate different norms and legal standards for data filtering; (2) to collect a dataset that can be used in the future for pretraining legal-domain language models, a key direction in access-to-justice initiatives. As such, data sources are curated to inform: (1) legal analysis, knowledge, or understanding; (2) argument formation; (3) privacy filtering standards. Sources like codes and laws tend to inform (1). Transcripts and court filings tend to inform (2). Opinions tend to inform (1) and (3).
 
 ### Source Data
 
 #### Initial Data Collection and Normalization
 
-[More Information Needed]
+We do not normalize the data, but we provide dataset creation code and relevant urls in https://github.com/Breakend/PileOfLaw
 
 #### Who are the source language producers?
 
-[More Information Needed]
+Varied (see sources above).
 
 ### Personal and Sensitive Information
 
-[More Information Needed]
+This dataset may contain personal and sensitive information. However, this has been previously filtered by the relevant government and federal agencies that weigh the harms of revealing this information against the benefits of transparency. If you encounter something particularly harmful, please file a takedown request with the upstream source and notify us in the communities tab. We will then remove the content. We cannot enable more restrictive licensing because upstream sources may restrict using a more restrictive license. However, we ask that all users of this data respect the upstream licenses and restrictions. Per the standards of CourtListener, we do not allow indexing of this data by search engines and we ask that others do not also. Please do not turn on anything that allows the data to be easily indexed.
 
 ## Considerations for Using the Data
 
