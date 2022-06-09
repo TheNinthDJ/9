@@ -201,5 +201,26 @@ TODO:
 Since this dataset also includes several other curations, if you cite this work please also cite:
 
 ```
+# EurLex
 
+@inproceedings{chalkidis-etal-2019-large,
+    title = "Large-Scale Multi-Label Text Classification on {EU} Legislation",
+    author = "Chalkidis, Ilias  and Fergadiotis, Manos  and Malakasiotis, Prodromos  and Androutsopoulos, Ion",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1636",
+    doi = "10.18653/v1/P19-1636",
+    pages = "6314--6322"
+}
+
+# BVA
+@inproceedings{huang2021context,
+  title={Context-aware legal citation recommendation using deep learning},
+  author={Huang, Zihan and Low, Charles and Teng, Mengqiu and Zhang, Hongyi and Ho, Daniel E and Krass, Mark S and Grabmair, Matthias},
+  booktitle={Proceedings of the Eighteenth International Conference on Artificial Intelligence and Law},
+  pages={79--88},
+  year={2021}
+}
 ```
