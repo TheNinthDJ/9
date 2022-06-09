@@ -174,25 +174,21 @@ This dataset may contain personal and sensitive information. However, this has b
 
 ### Social Impact of Dataset
 
-[More Information Needed]
+We hope that this dataset will provide more mechanisms for doing data work. As we describe in the paper, the internal variation allows contextual privacy rules to be learned. If robust mechanisms for this are developed they can applied more broadly. This dataset can also potentially be used for legal language model pretraining. As discussed in [other work](https://arxiv.org/abs/2108.07258), legal language models can help improve access to justice in various ways. But they can also be used in potentially harmful ways. While such models are not ready for most production environments and are the subject of significant research, we ask that model creators using this data, particularly when creating generative models, consider the impacts of their model and make a good faith effort to weigh the benefits against the harms of their method. Our license and many of the sub-licenses also restrict commercial usage.
 
 ### Discussion of Biases
 
-[More Information Needed]
+The data reflects the biases of governments and courts. As we discuss in our work, these can be significant, though more recent text will likely be less overtly toxic. Please see the above statement and embark on any model uses responsibly.
 
 ### Other Known Limitations
 
-[More Information Needed]
+We mainly focus on U.S. and English-speaking legal sources, though we include some European and Canadian resources.
 
 ## Additional Information
 
-### Dataset Curators
-
-[More Information Needed]
-
 ### Licensing Information
 
-[More Information Needed]
+ CreativeCommons Attribution-NonCommercial-ShareAlike 4.0 International. But individual sources may have other licenses. See paper for details.
 
 ### Citation Information
 
