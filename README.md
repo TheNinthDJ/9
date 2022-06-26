@@ -17,6 +17,7 @@ task_categories:
 - fill-mask
 task_ids:
 - masked-language-modeling
+viewer: false
 ---
 
 # Dataset Card for Pile of Law
