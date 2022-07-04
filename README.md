@@ -51,7 +51,7 @@ viewer: false
 
 - **Homepage:** https://huggingface.co/datasets/pile-of-law/pile-of-law
 - **Repository:** https://huggingface.co/datasets/pile-of-law/pile-of-law
-- **Paper:** Under review.
+- **Paper:** https://arxiv.org/abs/2207.00220
 
 ### Dataset Summary
 
