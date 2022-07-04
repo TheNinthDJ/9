@@ -197,12 +197,14 @@ We mainly focus on U.S. and English-speaking legal sources, though we include so
 For a citation to this work:
 
 ```
-@article{hendersonkrass2022pileoflaw,
-  title={Pile of Law: Learning Responsible Data Filtering from the Law and a 256GB Open-Source Legal Dataset},
-  author={Henderson*, Peter and Krass*, Mark and Zheng, Lucia and Guha, Neel and Manning, Christopher and Jurafsky, Dan and Ho, Daniel E},
-  year={2022}
+@misc{hendersonkrass2022pileoflaw,
+  url = {https://arxiv.org/abs/2207.00220},
+  author = {Henderson*, Peter and Krass*, Mark S. and Zheng, Lucia and Guha, Neel and Manning, Christopher D. and Jurafsky, Dan and Ho, Daniel E.},
+  title = {Pile of Law: Learning Responsible Data Filtering from the Law and a 256GB Open-Source Legal Dataset},
+  publisher = {arXiv},
+  year = {2022}, 
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
-
 ```
 
 Since this dataset also includes several other data sources with citations, please refer to our paper and cite the additional relevant work in addition to our own work.
