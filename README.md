@@ -202,8 +202,7 @@ For a citation to this work:
   author = {Henderson*, Peter and Krass*, Mark S. and Zheng, Lucia and Guha, Neel and Manning, Christopher D. and Jurafsky, Dan and Ho, Daniel E.},
   title = {Pile of Law: Learning Responsible Data Filtering from the Law and a 256GB Open-Source Legal Dataset},
   publisher = {arXiv},
-  year = {2022}, 
-  copyright = {arXiv.org perpetual, non-exclusive license}
+  year = {2022}
 }
 ```
 
