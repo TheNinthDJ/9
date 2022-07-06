@@ -192,6 +192,32 @@ We mainly focus on U.S. and English-speaking legal sources, though we include so
 
  CreativeCommons Attribution-NonCommercial-ShareAlike 4.0 International. But individual sources may have other licenses. See paper for details. Some upstream data sources request that indexing be disabled. As such please **do not re-host any data in a way that can be indexed by search engines.**
 
+### DMCA Takedown Requests
+
+Pile of Law follows the notice and takedown procedures in the Digital Millennium Copyright Act (DMCA), 17 U.S.C. Section 512.
+
+If you believe content on Pile of Law violates your copyright, please immediately notify its operators by sending a message with the information described below. Please use the subject "Copyright" in your message. If Pile of Law's operators act in response to an infringement notice, they will make a good-faith attempt to contact the person who contributed the content using the most recent email address that person provided to Pile of Law.
+
+Under the DMCA, you may be held liable for damages based on material misrepresentations in your infringement notice. You must also make a good-faith evaluation of whether the use of your content is a fair use, because fair uses are not infringing. See 17 U.S.C. Section 107 and Lenz v. Universal Music Corp., No. 13-16106 (9th Cir. Sep. 14, 2015). If you are not sure if the content you want to report infringes your copyright, you should first contact a lawyer.
+
+The DMCA requires that all infringement notices must include all of the following:
+
+    A signature of the copyright owner or a person authorized to act on the copyright owner's behalf
+    An identification of the copyright claimed to have been infringed
+    A description of the nature and location of the material that you claim to infringe your copyright, in sufficient detail to allow Pile of Law to find and positively identify that material
+    Your name, address, telephone number, and email address
+    A statement that you believe in good faith that the use of the material that you claim to infringe your copyright is not authorized by law, or by the copyright owner or such owner's agent
+    A statement, under penalty of perjury, that all of the information contained in your infringement notice is accurate
+    A statement, under penalty of perjury, that you are either the copyright owner or a person authorized to act on their behalf.
+
+Pile of Law will respond to all DMCA-compliant infringement notices, including, as required or appropriate, by removing the offending material or disabling all links to it.
+
+All received infringement notices may be posted in full to the Lumen database (previously known as the Chilling Effects Clearinghouse). 
+
+All takedown requests with the above information should be sent via email to pileoflaw@gmail.com.
+
+This removal notice has been modified from the (CourtListener DMCA takedown notice)[https://www.courtlistener.com/terms/].
+
 ### Citation Information
 
 For a citation to this work:
