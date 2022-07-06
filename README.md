@@ -137,6 +137,7 @@ English
 
 **r_legaladvice** : Filtered data from the r/legaladvice and r/legaladviceofftopic subreddits in the format. 
 Title: [Post Title]
+Question: [Post Content]
 Topic: [Post Flair]
 Answer \#[N]: [Top Answers]...
 
