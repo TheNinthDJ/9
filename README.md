@@ -190,7 +190,7 @@ We mainly focus on U.S. and English-speaking legal sources, though we include so
 
 ### Licensing Information
 
- CreativeCommons Attribution-NonCommercial-ShareAlike 4.0 International. But individual sources may have other licenses. See paper for details. Some upstream data sources request that indexing be disabled. As such please **do not re-host any data here, especially in a way that can be indexed by search engines.**
+ CreativeCommons Attribution-NonCommercial-ShareAlike 4.0 International. But individual sources may have other licenses. See paper for details. Some upstream data sources request that indexing be disabled. As such please **do not re-host any data in a way that can be indexed by search engines.**
 
 ### Citation Information
 
