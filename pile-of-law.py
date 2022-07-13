@@ -29,7 +29,7 @@ _CITATION = """
 }
 """
 
-_URL = ""
+_URL = "https://huggingface.co/datasets/pile-of-law/pile-of-law"
 
 
 _DATA_URL = {
