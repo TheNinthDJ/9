@@ -1,4 +1,4 @@
-"""C4 dataset based on Common Crawl."""
+"""Pile of Law"""
 
 
 import gzip
@@ -15,12 +15,18 @@ datasets.logging.set_verbosity_info()
 logger = datasets.logging.get_logger(__name__)
 
 
-_DESCRIPTION = """\
-A living legal dataset.
+_DESCRIPTION = """
+We curate a large corpus of legal and administrative data. The utility of this data is twofold: (1) to aggregate legal and administrative data sources that demonstrate different norms and legal standards for data filtering; (2) to collect a dataset that can be used in the future for pretraining legal-domain language models, a key direction in access-to-justice initiatives.
 """
 
 _CITATION = """
-TODO
+@misc{hendersonkrass2022pileoflaw,
+  url = {https://arxiv.org/abs/2207.00220},
+  author = {Henderson, Peter and Krass, Mark S. and Zheng, Lucia and Guha, Neel and Manning, Christopher D. and Jurafsky, Dan and Ho, Daniel E.},
+  title = {Pile of Law: Learning Responsible Data Filtering from the Law and a 256GB Open-Source Legal Dataset},
+  publisher = {arXiv},
+  year = {2022}
+}
 """
 
 _URL = ""
