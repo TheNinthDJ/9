@@ -75,13 +75,21 @@ _DATA_URL = {
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.7.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.8.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.9.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.10.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.11.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.12.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.13.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.14.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.courtlisteneropinions.15.jsonl.xz"
 
         ],
         "validation" : [
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.0.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.1.jsonl.xz",
             "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.2.jsonl.xz",
-            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.3.jsonl.xz"
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.3.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.4.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.courtlisteneropinions.5.jsonl.xz"
         ]
     },
     "federal_register" : {
@@ -128,14 +136,12 @@ _DATA_URL = {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.scotus_docket_entries.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.scotus_docket_entries.jsonl.xz"]
     },
-    "bar_exam_outlines" : {
+    "exam_outlines" : {
         "train" : [
-            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.stanfordbarexamoutlines.jsonl.xz",
-            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.shajnfeldbarexamoutlines.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.examoutlines.jsonl.xz",
         ],
         "validation" : [
-            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.stanfordbarexamoutlines.jsonl.xz",
-            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.shajnfeldbarexamoutlines.jsonl.xz",
+            "https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.examoutlines.jsonl.xz",
         ]
     },
     "edgar" : {
@@ -209,6 +215,22 @@ _DATA_URL = {
     "dol_ecab" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.dol_ecab.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.dol_ecab.jsonl.xz"]     
+    },
+    "icj-pcij" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.ijc.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.ijc.jsonl.xz"]
+    },
+    "uspto_office_actions" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.uspto_oab.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.uspto_oab.jsonl.xz"]
+    },
+    "ed_policy_guidance" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.ed_policy_guidance.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.ed_policy_guidance.jsonl.xz"]
+    },
+    "acus_reports" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.acus_reports.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.acus_reports.jsonl.xz"]
     }
 }
 
