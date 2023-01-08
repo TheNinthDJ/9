@@ -167,8 +167,7 @@ Answer \#[N]: [Top Answers]...
 
 On-disk sizes might vary due to caching and compression, but should be approximately as follows as of 1/7/2023. 
 
-<details>
-<summary>Click to expand</summary>
+
 ```bash
  % xz --list data/*.xz                      
 Strms  Blocks   Compressed Uncompressed  Ratio  Check   Filename
@@ -295,7 +294,6 @@ Strms  Blocks   Compressed Uncompressed  Ratio  Check   Filename
 22,839  22,833     41.0 GiB    291.5 GiB  0.141  CRC64   119 files
 
 ```
-</details>
 
 ### Data Fields
 
