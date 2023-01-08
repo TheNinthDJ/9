@@ -165,8 +165,8 @@ _DATA_URL = {
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.oig.jsonl.xz"]        
     },
     "olc_memos" : {
-        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.olcmemos.jsonl.xz"],
-        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.olcmemos.jsonl.xz"]        
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.olc_memos.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.olc_memos.jsonl.xz"]        
     },
     "uscode" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.uscode.jsonl.xz"],
@@ -231,6 +231,34 @@ _DATA_URL = {
     "acus_reports" : {
         "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.acus_reports.jsonl.xz"],
         "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.acus_reports.jsonl.xz"]
+    },
+    "hhs_alj_opinions" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.hhs_alj.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.hhs_alj.jsonl.xz"]
+    },
+    "sec_administrative_proceedings" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.sec.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.sec.jsonl.xz"]
+    },
+    "fmshrc_bluebooks" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.fmshrc.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.fmshrc.jsonl.xz"]
+    },
+    "resource_contracts" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.resource_contracts.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.resource_contracts.jsonl.xz"]
+    },
+    "medicaid_policy_guidance" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.medicaid_policy_guidance.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.medicaid_policy_guidance.jsonl.xz"]
+    },
+    "irs_legal_advice_memos" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.irs_legal_advice_memos.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.irs_legal_advice_memos.jsonl.xz"]
+    },
+    "doj_guidance_documents" : {
+        "train" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/train.doj_guidance.jsonl.xz"],
+        "validation" : ["https://huggingface.co/datasets/pile-of-law/pile-of-law/resolve/main/data/validation.doj_guidance.jsonl.xz"]
     }
 }
 
